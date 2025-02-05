@@ -1,5 +1,6 @@
 import Link from "next/link";
 import UseStateHook from "./_component/UseStateHook";
+import CreatePortalApi from "./_component/CreatePortalApi";
 
 export default function Home() {
   return (
@@ -13,6 +14,8 @@ export default function Home() {
       <Link href="/ZustandLibParent1">ZustandParent1</Link>
       <br />
       <Link href="/ZustandLibParent2">ZustandParent2</Link>
+      <br />
+      <CreatePortalApi />
     </>
   );
 }

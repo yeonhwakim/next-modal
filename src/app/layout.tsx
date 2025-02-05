@@ -32,6 +32,7 @@ export default function RootLayout({
           {children}
           <ContextApiModal />
           <ZustandLibModal />
+          <div id="portal" />
         </ModalProvider>
       </body>
     </html>
