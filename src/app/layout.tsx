@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ModalProvider } from "./_context/ModalProvider";
 import ContextApiModal from "./_component/ContextApiModal/page";
+import ZustandLibModal from "./_component/ZustandLibModal/page";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,6 +31,7 @@ export default function RootLayout({
         <ModalProvider>
           {children}
           <ContextApiModal />
+          <ZustandLibModal />
         </ModalProvider>
       </body>
     </html>

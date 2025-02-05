@@ -9,6 +9,10 @@ export default function Home() {
       <Link href="/ContextApiParent1">ContextApiParent1</Link>
       <br />
       <Link href="/ContextApiParent2">ContextApiParent2</Link>
+      <br />
+      <Link href="/ZustandLibParent1">ZustandParent1</Link>
+      <br />
+      <Link href="/ZustandLibParent2">ZustandParent2</Link>
     </>
   );
 }
