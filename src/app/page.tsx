@@ -1,3 +1,4 @@
+import Link from "next/link";
 import UseStateHook from "./_component/UseStateHook";
 
 export default function Home() {
@@ -5,6 +6,9 @@ export default function Home() {
     <>
       <h3>MODAL</h3>
       <UseStateHook />
+      <Link href="/ContextApiParent1">ContextApiParent1</Link>
+      <br />
+      <Link href="/ContextApiParent2">ContextApiParent2</Link>
     </>
   );
 }
