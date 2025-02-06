@@ -16,6 +16,7 @@ export default function Home() {
       <Link href="/ZustandLibParent2">ZustandParent2</Link>
       <br />
       <CreatePortalApi />
+      <Link href="/modal">Parallel&Intercepting routes</Link>
     </>
   );
 }
